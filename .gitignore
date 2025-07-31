@@ -1,0 +1,37 @@
+i# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.mo
+*.sqlite3
+
+# Database
+db.sqlite3
+
+# Django migrations
+*/migrations/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store
+
+# uWSGI logs and sockets
+*.sock
+*.log
+
+# Other
+*.env

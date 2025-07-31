@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Загрузка JSON</title>
+</head>
+<body>
+    <h1>Загрузка JSON файла</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Загрузить</button>
+    </form>
+    <p style="color:red;">{{ message }}</p>
+    <a href="{% url 'records' %}">Посмотреть записи</a>
+</body>
+</html>
